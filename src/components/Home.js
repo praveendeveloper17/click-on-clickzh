@@ -62,14 +62,9 @@ function Home() {
             <h1>
               "Capture your special day with lifetime <br /> memories at Photokadai.com!"
             </h1>
+
             <button onClick={sendMessage} className="whatsapp-button ">
               <h1><i class="fa-brands fa-whatsapp"></i></h1>
-              <img
-                // src="" // Add your WhatsApp icon image path
-                alt="WhatsApp"
-                style={{ width: "50px", height: "50px" }}
-                
-              />
             </button>
           </div>
         </Col>
