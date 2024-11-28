@@ -1,57 +1,82 @@
-
-.package-content {
-  opacity: 0;
-  animation: fadeIn 1s forwards;
-  transition: opacity 0.5s ease-out;
-  text-align: start;
-  display: flex;
-  flex-direction: column;
-  padding-left: 30%;
-  margin-top: 20px;
-
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: normal;
+.type-packag {
+  text-align: center;
+}
+.btn-add {
+  background-color: blue;
   border-radius: 10px;
-  color: #ffffff;
-
-  /* Background image */
-  background-image: url('/public/price-card.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-attachment: fixed; 
+  color: white;
+  border: none;
+  padding: 10px;
 }
 
-  
-  .package-item {
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in forwards;
-    animation-delay: 0.5s;
-  }
-  
-  .package-item:nth-child(2) {
-    animation-delay: 1s;
-  }
-  
-  .package-item:nth-child(3) {
-    animation-delay: 1.5s;
-  }
-  
-  .package-item:nth-child(4) {
-    animation-delay: 2s;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  .contentshowing {
-    box-shadow: 10px 10px 20px #000000,-10px -10px 20px #ffffff;
-  
-  }
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  background: rgba(10, 8, 8, 0.987);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin: auto;
+}
+
+.login-box .user-box input,
+.login-box .user-box textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #bdb8b8;
+  font-size: 12px;
+}
+
+.login-box form #footer-btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ece6e6;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+.login-box #footer-btn:hover {
+  background: #03f40f;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03f40f,
+              0 0 25px #03f40f,
+              0 0 50px #03f40f,
+              0 0 100px #03f40f;
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+

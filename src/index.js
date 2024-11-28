@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navebar from './router-navbar/Navebar';
 // import Clintvideo from './router-navbar/Clintvideo';
 import Package from './router-navbar/Package';
+import Clintalbums from './router-navbar/Clintalbums'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
     <Route path="/Navebar" element={<Navebar />} />
       {/* <Route path="/Clintvideo" element={<Clintvideo />} /> */}
       <Route path="/Package" element={<Package />} />
+      <Route path="/Clintalbums" element={<Clintalbums />} />
       {/* <Route path='Ecommerce' element={<Ecommerce />} />
       <Route path='Todolist' element={<Todolist />} />
      */}

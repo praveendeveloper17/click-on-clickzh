@@ -19,7 +19,7 @@ function Navebar() {
             <Nav.Link href='https://www.instagram.com/clicknclickzpk/' to="/pricing"className='mx-3'>Instagram</Nav.Link>
             <Nav.Link href='https://www.youtube.com/@clicknclickz3495/videos' to="/Clintvideo"className='mx-3'>Youtub</Nav.Link>
             <Nav.Link as={Link} to="/Package"className='mx-3'>Packages</Nav.Link>
-            <Nav.Link as={Link} to="/pricing"className='mx-3'>Offer</Nav.Link>
+            <Nav.Link as={Link} to="/Clintalbums"className='mx-3'>Clintalbums</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
