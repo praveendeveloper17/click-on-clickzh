@@ -60,7 +60,7 @@ function Home() {
         <Col xs={12} md={12} lg={12}>
           <div className="home-content">
             <h1>
-              "Capture your special day with lifetime <br /> memories at Photokadai.com!"
+              "Capture your special day with lifetime <br /> memories at Photokadai.com!!!"
             </h1>
 
             <button onClick={sendMessage} className="whatsapp-button ">
