@@ -63,9 +63,9 @@ function Home() {
               "Capture your special day with lifetime <br /> memories at Photokadai.com!"
             </h1>
 
-            {/* <button onClick={sendMessage} className="whatsapp-button ">
+            <button onClick={sendMessage} className="whatsapp-button ">
               <h1><i class="fa-brands fa-whatsapp"></i></h1>
-            </button> */}
+            </button>
           </div>
         </Col>
 
