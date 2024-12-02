@@ -172,3 +172,20 @@
 }
 
 
+.magina {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+.open-time {
+  color: #128c7e;
+}
+span {
+  color: black;
+}
+.location {
+  color: red;
+}
+a{
+  text-decoration: none;
+}
